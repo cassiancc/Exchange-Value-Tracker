@@ -23,6 +23,7 @@
 		}
 	},
 	"license": "MIT",
+	"icon": "assets/exchangevaluetracker/icon.png",
 	"depends": {
 		"fabricloader": ">=0.4.0",
 		"java": ">=21",
