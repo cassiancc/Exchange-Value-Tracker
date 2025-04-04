@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "io.github.haykam821.exchangevaluetracker.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ServerEntityHandlerMixin",
+		"ServerWorldMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

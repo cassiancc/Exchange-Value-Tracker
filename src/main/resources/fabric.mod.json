@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "exchangevaluetracker",
+	"version": "${version}",
+	"name": "Exchange Value Tracker",
+	"description": "Shows a sidebar containing inventory exchange values for each player in Craftmine.",
+	"authors": [
+		"haykam821"
+	],
+	"contact": {
+		"homepage": "https://github.com/haykam821/Exchange-Value-Tracker#readme",
+		"issues": "https://github.com/haykam821/Exchange-Value-Tracker/issues",
+		"sources": "https://github.com/haykam821/Exchange-Value-Tracker"
+	},
+	"mixins": [
+		"exchangevaluetracker.mixin.json"
+	],
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.discord": "https://haykam.com/links/discord"
+			}
+		}
+	},
+	"license": "MIT",
+	"depends": {
+		"fabricloader": ">=0.4.0",
+		"java": ">=21",
+		"sidebar-api": "*"
+	}
+}
