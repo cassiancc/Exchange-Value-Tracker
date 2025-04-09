@@ -1,6 +1,6 @@
 package io.github.haykam821.exchangevaluetracker;
 
-import net.minecraft.class_11109;
+import net.minecraft.aprilfools.WorldEffect;
 import net.minecraft.component.DataComponentTypes;
 import net.minecraft.entity.attribute.EntityAttributes;
 import net.minecraft.item.Item;
@@ -39,7 +39,7 @@ public final class MineCalculator {
 		float multiplier = BASE_MULTIPLIER;
 
 		if (world != null) {
-			for (class_11109 effect : world.method_69125()) {
+			for (WorldEffect effect : world.method_69125()) {
 				multiplier += effect.experienceModifier();
 			}
 		}
